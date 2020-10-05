@@ -4,29 +4,73 @@
       <meta charset="utf-8">
       <title>Hello World Html</title>
    </head>
+   <style>
+      h1 {
+      color: white;
+      font-family: Roboto, sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      }
+      p {
+      color: white;
+      font-family: Roboto, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      }
+      body {
+      background-color: #343d46;
+      padding-left: 20px;
+      padding-right: 900px;
+      }
+      p#source-code {
+      color: #2DEC00;
+      font-family: Source Code Pro, monospace;
+      font-size: 15px;
+      font-weight: 100;
+      padding-left: 20px;
+      }
+      h3#source-code {
+      color: #2DEC00;
+      font-family: Source Code Pro, monospace;
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 20px;
+      }
+      .source-cards {
+      border-radius: 15px;
+      padding: 5px;
+      background-color: black;
+      }
+   </style>
    <body>
       <h1 class="header">Hello World</h1>
-      <p>These two words are usually the first ones we print when learning a new language. This project is dedicated to  showing how these words are printed in the console using a variety of different programming languages as well as displaying the words using HTML.</p>
-      <h3>HTML:</h3>
-      <p>&lt;p&gt; Hello World &lt;/p&gt;</p>
-      <h3>Java Script:</h3>
-      <p>console.log('Hello World');</p>
-      <h3>C++:</h3>
-      <p>#include &lt;iostream&gt;
+      <p>These two words are usually the first ones we print when learning a new language. 
          <br>
-         int main() {
          <br>
-         printf("Hello World");
-         <br>
-         }
+         This project is dedicated to showing how these words are printed in the console using a variety of different programming languages as well as displaying the words using HTML.
       </p>
-      <h3>Dart:</h3>
-      <p>
-         main(){
-         <br>
-         print('Hello World');
-         <br>
-         }
-      </p>
+      <div class="source-cards">
+         <h3 id="source-code">HTML:</h3>
+         <p id="source-code">&lt;p&gt;Hello World&lt;/p&gt;</p>
+         <h3 id="source-code">Java Script:</h3>
+         <p id="source-code">console.log('Hello World');</p>
+         <h3 id="source-code">C++:</h3>
+         <p id="source-code">#include &lt;iostream&gt;
+            <br>
+            int main() {
+            <br>
+            printf("Hello World");
+            <br>
+            }
+         </p>
+         <h3 id="source-code">Dart:</h3>
+         <p id="source-code">
+            main(){
+            <br>
+            print('Hello World');
+            <br>
+            }
+         </p>
+      </div>
    </body>
 </html>
